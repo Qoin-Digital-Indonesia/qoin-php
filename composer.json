@@ -2,7 +2,7 @@
     "name": "qoin/qoin-php",
     "description": "PHP Wrapper for Qoin Payment API",
     "homepage": "https://www.qoin.id",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "type": "library",
     "authors": [
         {

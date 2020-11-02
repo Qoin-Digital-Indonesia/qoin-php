@@ -69,8 +69,8 @@ class BriVa
     public function getStatus($body)
     {
         $endpoint = $this->isProduction
-                        ? 'https://dev-apipg.qoin.id/bri/order'
-                        : 'https://dev-sandbox-apipg.qoin.id/sandbox/bri/order';
+                        ? 'https://dev-apipg.qoin.id/bri/paymentstatus'
+                        : 'https://dev-sandbox-apipg.qoin.id/sandbox/bri/paymentstatus';
 
         $client = new Client(['http_errors' => false]);
         $response = $client->request('POST', $endpoint, [
